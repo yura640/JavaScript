@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<table  border="1">
+    <tr>
+        <th>COMPANY</th>
+        <th>COUNTRY</th>
+        <th>PHONE</th>
+    </tr>
+    {% for i in collection %}
+    <tr>
+        <th><a href="/company/{{i._id}}">{{i.company}}</a></th>
+        <th>{{i.country}}</th>
+        <th>{{i.phone}}</th>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
