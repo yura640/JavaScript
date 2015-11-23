@@ -1,12 +1,14 @@
 var express = require('express');
 var http = require('http');
 var app = express();
+
 var swig = require('swig');
 var user = require("./routes/company");
 app.engine("html", swig.renderFile);
-
+app.use(express.static('public'));
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
+
 
 app.use(user);
 
