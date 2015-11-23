@@ -1,0 +1,38 @@
+{% extends 'patern.html' %}
+
+{% block content %}
+    <div class="container-fluid">
+        <table>
+        <div class="row">
+
+            <div class="col-lg-2">
+                    <tr>
+                        <th><h2>country</h2></th>
+                        <td><h2>{{country}}</h2></td>
+                    </tr>
+            </div>
+
+            <div class="col-lg-4">
+                 <tr>
+                    <th><h2>discription</h2></th>
+                    <td><h4>{{discription}}</h4></td>
+                 </tr>
+            </div>
+
+            <div class="col-lg-3">
+                <tr>
+                    <th><h2>phone</h2></th>
+                    <td><h4>{{phone}}</h4></td>
+                </tr>
+            </div>
+
+            <div class="col-lg-3">
+                <tr>
+                    <th><h2>founding_date</h2></th>
+                    <td><h4>{{founding_date}}</h4></td>
+                </tr>
+            </div>
+        </div>
+    </table>
+</div>
+{% endblock %}

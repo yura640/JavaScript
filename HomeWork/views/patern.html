@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="styleshet" href="mystyle.css" type="text/css">
+</head>
+<body>
+<header>
+    <h1>TEXT</h1>
+<form action="/company" method="GET">
+    <input type="text" pleaceholder="search" name="count">
+    <input type="submit" value="OK">
+</form>
+</header>
+{% block content %}
+    <table border="1">
+    <tr>
+        <th>COMPANY</th>
+        <th>COUNTRY</th>
+        <th>PHONE</th>
+    </tr>
+    {% for i in collection %}
+    <tr>
+        <td><a href="/company/{{i._id}}">{{i.company}}</a></td>
+        <td>{{i.country}}</td>
+        <td>{{i.phone}}</td>
+    </tr>
+    {% endfor %}
+    </table>
+{% endblock %}
+</body>
+</html>

@@ -2,8 +2,7 @@ var express = require('express');
 var http = require('http');
 var app = express();
 var swig = require('swig');
-var user = require("./routes/users");
-var qs = require('querystring');
+var user = require("./routes/company");
 app.engine("html", swig.renderFile);
 
 app.set('view engine', 'html');
@@ -19,4 +18,4 @@ http.createServer(app).listen(process.env.Port||8000);
 
 
 
-module.exports = app;
+//module.exports = app;
