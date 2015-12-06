@@ -7,13 +7,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/mystyle.css" type="text/css">
+    <script src="/javascripts/myjQuery.js"></script>
 </head>
 <body>
 <header>
     <h1>TEXT</h1>
 <form action="/company" method="GET">
-    <input type="text" pleaceholder="search" name="count">
-    <input type="submit" value="OK">
+    <input id="input" type="text" name="confirmName" autocomplete="off">
+    <input type="submit" id="ok" value="OK"><br>
+    <select autofocus multiple hidden id="confirm"></select>
 </form>
 </header>
 {% block content %}
