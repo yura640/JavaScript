@@ -21,13 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="company.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="company.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/company.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.620438">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
-                <marker date="1449423025934" expanded="true" signature="1558:1818" placeholder="..." />
+                <marker date="1449424057866" expanded="true" signature="1486:1741" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -36,17 +36,17 @@
       <file leaf-file-name="patern.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/patern.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
+            <state vertical-scroll-proportion="2.0">
               <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myjQuery.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myjQuery.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/myjQuery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.76642334">
               <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
@@ -98,9 +98,9 @@
         <option value="$PROJECT_DIR$/public/stylesheets/mystyle.css" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/curentCompany.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/myjQuery.js" />
         <option value="$PROJECT_DIR$/views/patern.html" />
         <option value="$PROJECT_DIR$/routes/company.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/myjQuery.js" />
       </list>
     </option>
   </component>
@@ -412,7 +412,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1449423025934" expanded="true" signature="1558:1818" placeholder="..." />
+            <marker date="1449424057866" expanded="true" signature="1486:1741" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -454,7 +454,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1449423025934" expanded="true" signature="1558:1818" placeholder="..." />
+            <marker date="1449424057866" expanded="true" signature="1486:1741" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -496,7 +496,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding>
-            <marker date="1449423025934" expanded="true" signature="1558:1818" placeholder="..." />
+            <marker date="1449424057866" expanded="true" signature="1486:1741" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -538,7 +538,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding>
-            <marker date="1449423025934" expanded="true" signature="1558:1818" placeholder="..." />
+            <marker date="1449424057866" expanded="true" signature="1486:1741" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -587,7 +587,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <marker date="1449423025934" expanded="true" signature="1558:1818" placeholder="..." />
+            <marker date="1449424057866" expanded="true" signature="1486:1741" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -759,29 +759,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/myjQuery.js">
+    <entry file="file://$PROJECT_DIR$/routes/company.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <marker date="1449424057866" expanded="true" signature="1486:1741" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/patern.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
+        <state vertical-scroll-proportion="2.0">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/company.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/myjQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.620438">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <marker date="1449423025934" expanded="true" signature="1558:1818" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.76642334">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

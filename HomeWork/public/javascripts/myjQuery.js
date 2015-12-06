@@ -17,22 +17,9 @@ $(document).ready(function(){
                     $("#confirm :first").attr("selected", "selected");
                     $('#confirm').on("click", "option", function(){
                         $('#input').val(returnedData[this.id]);
-                        //$('p#0').addClass('active');
                         $('#confirm').html('');
                         $('#confirm').css("display", "none");
                     });
-
-                    //$('form').submit(function(e){
-                    //
-                    //    for(var i=0; i<returnedData.length; i++) {
-                    //        if (reqData == returnedData[i]){
-                    //            $.get('localhost:8000/company?count=5', {fgfgf:dfdf, sdsds:gffgf})
-                    //        } else {
-                    //            //e.preventDefault();
-                    //        }
-                    //    }
-                    //});
-
                 }
             });
         }

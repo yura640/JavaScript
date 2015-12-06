@@ -16,7 +16,6 @@ router.get("/company", function(req, res, next) {
                 })
             }
         }
-        console.log("1");
     }
     if (req.query.count) {
         var companies = companyData.slice(0, req.query.count);
@@ -24,7 +23,6 @@ router.get("/company", function(req, res, next) {
             collection: companies,
             title: "Curent Companies"
         });
-        console.log("2");
     }
     if (req.query.companyName){
         //console.log(req.query.companyName);
@@ -38,7 +36,7 @@ router.get("/company", function(req, res, next) {
             }
         }
          res.json(resArray);
-        console.log("3");
+    }
     //} if (req.query == undefined)  Здесь должно быть условие при котором выводится весь список!!!
     //     {
     //    res.render("patern", {
@@ -46,7 +44,7 @@ router.get("/company", function(req, res, next) {
     //        title: "ALL Companies"
     //    });
     //    console.log("4")
-    }
+
 
 });
 router.get('/company/:id', function(req, res, next) {
