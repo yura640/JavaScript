@@ -11,9 +11,9 @@ $(document).ready(function(){
                 processData: false,
                 success: function (returnedData) {
                     for (var i = 0; i < returnedData.length; i++) {
-                    $('#confirm').append('<option id="' + i +'">' + returnedData[i] + '</option>');
-                       // $('p#0').add onchange="window.location.href =/company?confirmName='+ returnedData[i] +'"></a>')
-                    }
+                        $('#confirm').append('<option id="' + i +'">' + returnedData[i] + '</option>');
+                        }
+                    
                     $('#confirm').css("display", "block");
                     //$("#confirm :first").attr("selected", "selected");
                     $('#confirm').on("click", "option", function(){
