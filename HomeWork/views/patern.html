@@ -13,9 +13,9 @@
 <header>
     <h1>TEXT</h1>
 <form action="/company" method="GET">
-    <input id="input" type="text" name="confirmName" autocomplete="off">
+    <input id="input" type="text"  autocomplete="off">
     <input type="submit" id="ok" value="OK"><br>
-    <select autofocus multiple hidden id="confirm"></select>
+    <select name="confirmName" onchange="this.form.submit()" multiple hidden id="confirm"></select>
 </form>
 </header>
 {% block content %}

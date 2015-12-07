@@ -11,11 +11,13 @@ $(document).ready(function(){
                 processData: false,
                 success: function (returnedData) {
                     for (var i = 0; i < returnedData.length; i++) {
-                        $('#confirm').append('<option id="' + i + '">' + returnedData[i] + '</option>');
+                    $('#confirm').append('<option id="' + i +'">' + returnedData[i] + '</option>');
+                       // $('p#0').add onchange="window.location.href =/company?confirmName='+ returnedData[i] +'"></a>')
                     }
                     $('#confirm').css("display", "block");
-                    $("#confirm :first").attr("selected", "selected");
+                    //$("#confirm :first").attr("selected", "selected");
                     $('#confirm').on("click", "option", function(){
+
                         $('#input').val(returnedData[this.id]);
                         $('#confirm').html('');
                         $('#confirm').css("display", "none");
